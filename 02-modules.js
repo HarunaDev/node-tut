@@ -3,7 +3,8 @@
 // Modules - Encapsulated Code (only share minimum)
 const names = require('./03-names')
 const sayHello = require('./04-utils')
-console.log(names, sayHello)
+const data = require('./05-alt-flavour')
+console.log(names, sayHello, data)
 
 sayHello(names.john);
 sayHello(names.mary);
